@@ -1,0 +1,32 @@
+* {
+  border-radius: 3px;
+  text-align: center;
+  margin: 10px;
+}
+
+body>div {
+  background-color: #eee8f6;
+}
+
+body>div>span {
+  background: #fff2b5;
+  display: inline-block;
+  width: 100%;
+}
+
+body>div div {
+  background: #ded1ed;
+}
+
+.container {
+  display: flex;
+  background: #eee8f6;
+}
+
+.container>.right div {
+  border: 1px solid #bb87fd;
+}
+
+.container div:nth-child(3) {
+  border: 1px solid #bb87fd;
+}
